@@ -1,0 +1,15 @@
+* {
+
+   Bukhari Script
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face {
+    font-family: "doce";
+    src: url(fontes/MATURASC_1.TTF);
+}
+
+body {
+    background-color: aqua;
+}
