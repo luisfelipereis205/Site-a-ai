@@ -1,25 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <link rel="stylesheet" href="style/styles.css" />
     <title>Açai</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container-header">
-            <div class="logo"><img src="imagens/logo.png" alt="logo"></div>
-            <div class="list-header">
-                <ul>
-                    <li>INICIO</li>
-                    <li>CARDÁPIO</li>
-                    <li>SOBRE</li>
-                    <li>CONTATO</li>
-                    <li>PEÇA AGORA</li>
-                </ul>
+      <div class="container-header">
+        <div class="logo"><img src="imagens/logo.png" alt="logo" /></div>
+        <nav class="menu-header">
+          <ul class="list-header">
+            <li class="item">INICIO</li>
+            <li class="item">CARDÁPIO</li>
+            <li class="item">SOBRE</li>
+            <li class="item">CONTATO</li>
+            <div class="container-seta">
+              <li class="item-btn">PEDIR AGORA </li><span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
             </div>
-        </div>
+          </ul>
+          <div class="stripe"></div>
+          <div class="stripe"></div>
+          <div class="stripe"></div>
+        </nav>
+      </div>
     </header>
-</body>
+
+    <main>
+      <section class="section-inicio">
+        <div class="container-inicio">
+          <img src="imagens/design-copo.png" alt="açai" />
+          <h1>O verdadeiro sabor do açaí, do jeito que você merece.</h1>
+          <p>
+            Selecionamos os melhores ingredientes para oferecer um açaí intenso,
+            nutritivo e irresistível, perfeito para qualquer momento do seu dia.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-cardapio">
+        <div class="container-cardapio">
+          <h2>Cardápio</h2>
+          <h4>Nossos tamanhos</h4>
+          <p>Escolha o tamanho ideal para você</p>
+
+          <div class="cardapio-grid">
+            <div class="card">
+              <h3>200ml</h3>
+              <p class="preco">R$10,00</p>
+              <p class="info">1 cobertura + 2 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>330ml</h3>
+              <p class="preco">R$14,00</p>
+              <p class="info">1 cobertura + 3 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>400ml</h3>
+              <p class="preco">R$17,00</p>
+              <p class="info">1 cobertura + 4 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>500ml</h3>
+              <p class="preco">R$20,00</p>
+              <p class="info">1 cobertura + 4 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>700ml</h3>
+              <p class="preco">R$27,00</p>
+              <p class="info">1 cobertura + 5 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>1 Litro</h3>
+              <p class="preco">R$40,00</p>
+              <p class="info">1 cobertura + 5 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>Hamburgueria</h3>
+              <p class="preco">R$15,00</p>
+              <p class="info">1 cobertura + 4 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+            <div class="card">
+              <h3>Barca M</h3>
+              <p class="preco">R$27,00</p>
+              <p class="info">1 cobertura + 5 complementos</p>
+              <a href="#" class="btn-card"></a>
+            </div>
+          </div>
+
+          <div class="container-complementos">
+            <h4>Monte do seu jeito</h4>
+            <p>Escolha seus acompanhamentos favoritos</p>
+
+            <div class="complementos-grid">
+              <div class="categoria">
+                <h5>Coberturas</h5>
+                <ul>
+                  <li>Chocolate</li>
+                  <li>Morango</li>
+                  <li>Leite Condensado</li>
+                </ul>
+              </div>
+
+              <div class="categoria">
+                <h5>Complementos</h5>
+                <ul>
+                  <li>Leite em pó</li>
+                  <li>Jujuba</li>
+                  <li>Coloreti</li>
+                  <li>Amendoim</li>
+                  <li>Ceral Ball</li>
+                  <li>Granola</li>
+                  <li>Farinha Lacta</li>
+                  <li>Paçoca</li>
+                  <li>Tapioca</li>
+                  <li>Sucrilhos</li>
+                  <li>Gotas de Chocolate</li>
+                  <li>Cookies</li>
+                </ul>
+              </div>
+
+              <div class="categoria">
+                <h5>Frutas</h5>
+                <ul>
+                  <li>Banana (+ R$2,00)</li>
+                  <li>Kiwi (+ R$3,00)</li>
+                  <li>Uva (+ R$3,00)</li>
+                  <li>Morango (+ R$3,00)</li>
+                </ul>
+              </div>
+
+              <div class="categoria destaque-cremes">
+                <h5>Cremes Especiais</h5>
+                <ul>
+                  <li>Nutella (+ R$4,00)</li>
+                  <li>Creme de Ninho (+ R$4,00)</li>
+                  <li>Creme de Morango (+ R$4,00)</li>
+                  <li>Creme de Cookie (+ R$4,00)</li>
+                  <li>Creme de Cupuaçu (+ R$4,00)</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
